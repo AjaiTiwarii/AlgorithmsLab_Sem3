@@ -18,6 +18,7 @@ public:
     }
 };
 
+
 class cmp {
 public:
     bool operator()(Node* a, Node* b) {
