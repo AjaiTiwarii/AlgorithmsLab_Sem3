@@ -24,6 +24,7 @@ int maxsubarraynaive(int *a,int *n, int *m,int *l)
     return maxsum;
 }
 
+
 int maxcrossingsum(int *a,int *low,int *mid,int *high,int *maxleft,int *maxright)
 {
     int leftsum=-9999;
