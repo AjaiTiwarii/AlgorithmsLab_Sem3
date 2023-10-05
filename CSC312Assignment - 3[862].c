@@ -54,6 +54,7 @@ void inorderTraversal(struct node* root) {
 }
 
 
+
 void smallestbst(struct node* root) {
     if (root == NULL) {
         printf("Tree is empty\n");
