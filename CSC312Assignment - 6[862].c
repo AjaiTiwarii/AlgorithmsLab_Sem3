@@ -8,6 +8,7 @@ void swap(int *x, int *y) {
     *y = temp;
 }
 
+
 int *randomizedpartition(int *arr, int *p, int *r) {
     srand(time(NULL));
     int RandomIndex = rand() % (*r - *p + 1) + *p;
