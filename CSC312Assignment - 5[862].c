@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 
+
 void matrixMultiplication(int n,int a[][n],int b[][n],int c[][n])
 {
     if(n==1)
