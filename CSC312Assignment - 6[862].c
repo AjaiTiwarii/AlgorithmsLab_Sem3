@@ -33,6 +33,7 @@ void randomizedquickSort(int *arr, int p, int r) {
     }
 }
 
+
 void printArray(int *arr, int *p, int *r) {
     for (int i = *p; i <= *r; i++) {
         printf("%d ", arr[i]);
